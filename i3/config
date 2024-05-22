@@ -177,7 +177,8 @@ bar { status_command i3status -c /home/$USER/.config/i3status/i3status.conf
 
 exec_always xrandr --output eDP1 --mode 1366x768 --pos 1920x831 --rotate normal --output HDMI1 --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
-exec_always feh --bg-scale /usr/share/backgrounds/linuxmint-victoria/mmiyagi_japan.jpg
+#exec_always feh --bg-scale /usr/share/backgrounds/linuxmint-victoria/mmiyagi_japan.jpg
+exec_always feh --bg-scale /usr/share/backgrounds/linuxmint-virginia/mpiwnicki_sky.jpg
 
 exec_always picom -f
 #exec --no-startup-id picom -b
@@ -327,4 +328,7 @@ mode "$mode_gaps_left" {
 
 mouse_warping none
 
-default_border pixel 4
+default_border pixel 3 
+
+bindsym $mod+Shift+s exec import /Downloads/Screenshot.png
+

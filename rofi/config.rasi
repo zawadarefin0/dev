@@ -23,7 +23,7 @@ configuration {
 }
 
 window {
-  width: 30%;
+  width: 40%;
   background-color: @bg;
 }
 
@@ -64,7 +64,7 @@ inputbar {
 listview {
   background-color: @bg;
   columns: 1;
-  lines: 5;
+  lines: 8;
 }
 
 mainbox {
