@@ -1,0 +1,5 @@
+copymap <UP>       i
+copymap <DOWN>     k
+copymap <LEFT>     j
+copymap <RIGHT>    l
+
