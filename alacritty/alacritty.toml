@@ -32,8 +32,7 @@ green = "#A6E3A1"
 magenta = "#F5C2E7"
 red = "#F38BA8"
 white = "#BAC2DE"
-yellow = "#F9E2AF"
-
+yellow = "#F9E2AF" 
 [colors.hints.end]
 background = "#A6ADC8"
 foreground = "#1E1E2E"
@@ -87,8 +86,8 @@ action = "SpawnNewInstance"
 key = "Return"
 mods = "Control|Shift"
 
-#[shell]
-#program = "/usr/bin/fish"
+[shell]
+program = "/usr/bin/zsh"
 
 [window.padding]
 x = 20
