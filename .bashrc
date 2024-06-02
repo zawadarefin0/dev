@@ -118,6 +118,7 @@ fi
 
 PS1='\[\e[38;5;132m\]\w\[\e[0m\] \[\e[38;5;91m\]\$\[\e[0m\] '
 . "$HOME/.cargo/env"
+
 source /home/zawadarefin/tmp/alacritty/extra/completions/alacritty.bash
 
 setxkbmap us
@@ -126,4 +127,12 @@ eval "$(zoxide init bash)"
 
 alias cd="z"
 
-alias sleeppath="/usr/local/bin/sleep"
+alias i3c="nvim /home/zawadarefin/.config/i3/config"
+
+alias nvc="nv .config/nvim/init.lua"
+
+alias nv="/bin/nvim.appimage"
+
+alias ls="eza --tree --level=1 --icons --git"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
