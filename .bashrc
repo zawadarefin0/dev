@@ -133,6 +133,6 @@ alias nvc="nv .config/nvim/init.lua"
 
 alias nv="/bin/nvim.appimage"
 
-alias ls="eza --tree --level=1 --icons --git"
+alias ls="eza --tree --level=1 --icons --git --group-directories-first"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
