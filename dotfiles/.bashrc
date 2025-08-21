@@ -136,9 +136,9 @@ alias nv="/bin/nvim.appimage"
 alias ls="eza --tree --level=1 --icons --git --group-directories-first"
 
 # Temporarily compile .cpp file in parameter 1, run and delete the file.
-alias tempcpp="g++ $1 && ./a.out && rm ./a.out"
+alias tempcpp="/home/Documents/dev/Scripts/tempcpp"
 
 # Compile .cpp in parameter 1
-alias cppcompile="/home/Documents/Scripts/cppcompile"
+alias cppcompile="/home/Documents/dev/Scripts/cppcompile"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
